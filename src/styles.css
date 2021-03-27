@@ -46,11 +46,6 @@ p {
 .navigation-links a {
   margin: 20px;
 }
-.navigation-links a:hover {
-  margin: 20px;
-  color: var(--third-color);
-  background-color: #fff;
-}
 
 .primary-link {
   border-radius: 4px;
@@ -69,6 +64,15 @@ p {
   text-transform: capitalize;
   color: #fff;
   border: 1px solid #fff;
+}
+
+.primary-link:hover {
+  color: var(--third-color);
+  background-color: #fff;
+}
+.secondary-link:hover {
+  color: var(--third-color);
+  background-color: #fff;
 }
 
 .social-icons a {
@@ -115,4 +119,15 @@ p {
   justify-content: center;
   padding: 60px 200px;
   text-align: center;
+}
+
+.featured-content {
+  padding: 60px 100px;
+  background-color: var(--secondary-color);
+}
+
+.featured-content h2 {
+  color: var(--background-color);
+  font-size: 40px;
+  text-transform: uppercase;
 }
