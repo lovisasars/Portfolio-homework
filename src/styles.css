@@ -117,7 +117,6 @@ p {
 .hero {
   display: flex;
   justify-content: center;
-  padding: 60px 200px;
   text-align: center;
 }
 
@@ -140,3 +139,9 @@ p {
 .basic-link:hover {
   color: var(--primary-color);
 }
+
+@media (min-width: 768px) {
+  .hero {
+    padding: 50px 100px;
+  }
+} ;
