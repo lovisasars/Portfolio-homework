@@ -131,3 +131,12 @@ p {
   font-size: 40px;
   text-transform: uppercase;
 }
+
+.basic-link {
+  text-decoration: none;
+  color: var(--third-color);
+}
+
+.basic-link:hover {
+  color: var(--primary-color);
+}
