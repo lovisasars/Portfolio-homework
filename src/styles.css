@@ -121,7 +121,6 @@ p {
 }
 
 .featured-content {
-  padding: 60px 100px;
   background-color: var(--secondary-color);
 }
 
@@ -144,5 +143,8 @@ p {
 @media (min-width: 768px) {
   .hero {
     padding: 50px 100px;
+  }
+  .featured-content {
+    padding: 60px 100px;
   }
 } ;
