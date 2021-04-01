@@ -112,7 +112,7 @@ label {
 }
 
 .profile-img {
-  max-width: 300px;
+  min-width: 100px;
 }
 
 .hero {
@@ -143,6 +143,11 @@ label {
 
 .li-img {
   max-width: 200px;
+}
+
+li {
+  color: #fff;
+  list-style: none;
 }
 
 @media (min-width: 768px) {
