@@ -37,6 +37,10 @@ p {
   line-height: 1.5;
 }
 
+label {
+  color: #fff;
+}
+
 .navigation-links {
   display: flex;
   margin-top: 40px;
@@ -99,15 +103,12 @@ p {
 }
 
 .email-link {
-  display: flex;
-  justify-content: center;
-  color: var(--primary-color);
-  font-size: 28px;
+  color: var(--third-color);
   text-decoration: none;
 }
 
 .email-link:hover {
-  text-decoration: underline;
+  color: #fff;
 }
 
 .profile-img {
@@ -140,11 +141,19 @@ p {
   color: var(--primary-color);
 }
 
+.li-img {
+  max-width: 200px;
+}
+
 @media (min-width: 768px) {
   .hero {
     padding: 50px 100px;
   }
   .featured-content {
     padding: 60px 100px;
+  }
+  .about-hero {
+    padding: 60px 60px;
+    justify-content: center;
   }
 } ;
