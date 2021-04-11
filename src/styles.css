@@ -149,6 +149,19 @@ li {
   max-width: 250px;
 }
 
+.portfolio-hero {
+  text-align: center;
+  background-color: var(--secondary-color);
+}
+
+.react-text {
+  text-align: right;
+}
+
+.contact-section {
+  background-color: var(--secondary-color);
+}
+
 @media (min-width: 768px) {
   .hero {
     padding: 50px 100px;
